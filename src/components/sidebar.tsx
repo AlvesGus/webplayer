@@ -109,7 +109,7 @@ export function SidebarMenu() {
         <SidebarNavHeader className="font-bold text-title">
           <h2>Descobrir</h2>
         </SidebarNavHeader>
-        <SidebarNav>
+        <SidebarNav className="pt-2">
           <SidebarNavMain>
             {NavLinksDicover.map(nav => (
               <SidebarNavLink
@@ -130,7 +130,7 @@ export function SidebarMenu() {
         <SidebarNavHeader className="font-bold text-title">
           <h2>Galeria</h2>
         </SidebarNavHeader>
-        <SidebarNav>
+        <SidebarNav className="pt-2">
           <SidebarNavMain>
             {NavLinksLibary.map(nav => (
               <SidebarNavLink
@@ -146,7 +146,7 @@ export function SidebarMenu() {
             ))}
           </SidebarNavMain>
         </SidebarNav>
-        <SidebarFooter>
+        <SidebarFooter className="pt-2">
           {NavLinksFooter.map(nav => (
             <SidebarNavLink
               key={nav.id}

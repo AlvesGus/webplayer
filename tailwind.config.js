@@ -13,8 +13,7 @@ export default {
         sm: 'calc(var(--radius) - 4px)'
       },
       backgroundImage: {
-        bgMintDark:
-          'linear-gradient(90deg,rgba(161,209,177,1)   0%, rgba(28,37,41,0.5)100%);'
+        bgMintDark: 'linear-gradient(90deg, #b0c9cd  0%, #684b74 100%);'
       },
       colors: {
         pastelblue: '#b0c9cd',

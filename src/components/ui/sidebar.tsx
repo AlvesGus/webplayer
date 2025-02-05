@@ -22,7 +22,7 @@ export function SidebarHeader({ className, children }: SidebarGenericProps) {
   return (
     <header
       className={cn([
-        'px-6 h-12 flex items-center border-b border-border',
+        'px-6 h-20 flex items-center border-b border-border',
         className
       ])}
     >
